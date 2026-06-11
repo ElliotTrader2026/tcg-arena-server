@@ -1,0 +1,16 @@
+{
+  "name": "tcg-arena-server",
+  "version": "0.1.0",
+  "description": "TCG Arena multiplayer server (Phase 1)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.5"
+  }
+}
